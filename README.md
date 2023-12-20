@@ -33,10 +33,10 @@ pkg install git
 git clone https://github.com/mastertgtool/HACKINGTGA1.git
 ```
 ```sh
-cd HACKINGTGA
+cd HACKINGTGA1
 ```
 ```sh
-bash tga.sh
+bash tga1.sh
 ```
  
 # Tools I Use
