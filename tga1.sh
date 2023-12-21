@@ -41,6 +41,7 @@ echo -e '\033[31;38;1m
  \033[1;34m[12]\e[35m CCV-CAMERA-V1 \033[1;32m Update New
  \033[1;34m[13]\e[35m IPDRONE \033[1;32m Update New
  \033[1;34m[14]\e[35m TIKTOK VIEW V1 \033[1;32m Update New 
+ \033[1;34m[15]\e[35m FB CLONE TOOL \033[1;32m New 
 '
 
 
@@ -194,9 +195,24 @@ elif [[ $islem == 14|| $islem == 14 ]]; then
 clear
 echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
 sleep 3
+pkg install python
+pkg install git
 git clone https://github.com/mastertgtool/TIKTOKVIEWV1.git
 cd TIKTOKVIEWV1
 python view.py
+
+## FB CLONE V1
+elif [[ $islem == 15|| $islem == 15 ]]; then
+clear
+echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+sleep 3
+apt update 
+apt install python
+pip install beautifulsoup4
+apt install git
+git clone https://github.com/mastertgtool/FB-CLONE-TOOL.git
+cd FB-CLONE-TOOL
+python FB-CLONE.py
 
 ## Faulty code
 
