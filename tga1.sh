@@ -194,8 +194,6 @@ elif [[ $islem == 14|| $islem == 14 ]]; then
 clear
 echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
 sleep 3
-pkg install python
-pkg install git
 git clone https://github.com/mastertgtool/TIKTOKVIEWV1.git
 cd TIKTOKVIEWV1
 python view.py
