@@ -39,7 +39,8 @@ echo -e '\033[31;38;1m
     ┗━━━━━━━━━━━━━━━━┛  
  \033[1;34m[11]\e[35m SPAM SMS V2 \033[1;32m Update New
  \033[1;34m[12]\e[35m CCV-CAMERA-V1 \033[1;32m Update New
- \033[1;34m[13]\e[35m IPDRONE \033[1;32m Update New 
+ \033[1;34m[13]\e[35m IPDRONE \033[1;32m Update New
+ \033[1;34m[14]\e[35m TIKTOK VIEW V1 \033[1;32m Update New 
 '
 
 
@@ -187,6 +188,16 @@ pkg install git
 git clone https://github.com/mastertgtool/IPDRONE.git
 cd ipdrone
 python ipdrone.py -v 101.7114774
+
+## TIKTOK VIEW
+elif [[ $islem == 14|| $islem == 14 ]]; then
+clear
+echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+sleep 3
+pkg install python
+git clone https://github.com/mastertgtool/TIKTOKVIEWV1.git
+cd TIKTOKVIEWV1
+python view.py
 
 ## Faulty code
 
