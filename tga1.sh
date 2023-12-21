@@ -8,18 +8,18 @@ echo -e '\033[31;38;1m
 ██║╚██╔╝██║██╔══██║░╚═══██╗░░░██║░░░██╔══╝░░██╔══██╗ 
 ██║░╚═╝░██║██║░░██║██████╔╝░░░██║░░░███████╗██║░░██║ 
 ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝ 
-\033[6;36m         Version 1.5
+\033[6;36m         Version 1.4
 
  \033[33;5m[</>]\033[Om By Master TG By DONE Join => Group:@ShareToolBuffViewTikTok
  
-  \033[33;4mVersion:\033[0m 1.4          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m salih.py
+  \033[1;33mVersion:\033[0m 1.4          \033[1;36mCTRL+C:\033[0m exit          \033[1;38mAuthor:\033[0m mastertgtool.py
 
-\e[37m[1]\e[36m Requirements & Update         \e[37m[2]\e[36m Phishing Tool				
-\e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m User Find					
-\e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
-\e[37m[7]\e[36m How to use ?	          \e[37m[8]\e[36m Uninstall Downloaded Programs 		
-\e[37m[9]\e[36m TIKTOK-BOT \e[31m Update           \e[36m \e[37m[10]\e[36m SPAM SMS V1 \e[31m Update 
-\e[37m[11]\e[36m SPAM SMS V2 \033[2;32m Update New 
+\033[1;34m[1]\e[35m Requirements & Update         \e[34m[2]\e[35m Phishing Tool				
+\033[1;34m[3]\e[35m WebCam Hack                   \e[34m[4]\e[35m User Find					
+\033[1;34m[5]\e[35m Gmail Bomber		  \e[34m[6]\e[35m DDOS Attack			
+\033[1;34m[7]\e[35m How to use ?	          \e[34m[8]\e[35m Uninstall Downloaded Programs 		
+\033[1;34m[9]\e[35m TIKTOK-BOT \e[31m Update            \e[34m[10]\e[35m SPAM SMS V1 \e[31m Update 
+\033[1;34m[11]\e[35m SPAM SMS V2 \033[1;32m Update New      \e[34m[12]\e[35m CCV-CAMERA-V1 \033[1;32m Update New
 '
 
 
@@ -147,6 +147,16 @@ git clone https://github.com/mastertgtool/SPAM-SMS-V2.git
 cd SPAM-SMS-V2
 clear
 python SPAM-SMS-V2.py
+
+## CCV-CAMERA-V1
+elif [[ $islem == 12|| $islem == 12 ]]; then
+clear
+echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+sleep 3
+git clone https://github.com/mastertgtool/CCV-CAMERA-V1.git
+cd CCV-CAMERA-V1
+clear
+python CCV-CAMERA-V1.py
 
 ## Faulty code
 
