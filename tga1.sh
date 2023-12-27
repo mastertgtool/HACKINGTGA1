@@ -19,7 +19,7 @@ echo -e '\033[31;38;1m
        \033[1;33mVersion:\033[0m 1.4  \033[1;36mCTRL+C:\033[31;38;1m exit
   \033[1;34m╚═════════════════════════════════════════════╝
 \033[1;36m    ┏━━━━━━━━━━━━━━━━┓
-        SPAM TOOL V1
+       SPAM TOOL V1
     ┗━━━━━━━━━━━━━━━━┛
  \033[1;34m[1]\e[35m Requirements & Update
  \033[1;34m[2]\e[35m Phishing Tool				
@@ -27,7 +27,7 @@ echo -e '\033[31;38;1m
  \033[1;34m[4]\e[35m User Find				
  \033[1;34m[5]\e[35m Gmail Bombs 
 \033[1;36m    ┏━━━━━━━━━━━━━━━━┓
-        SPAM TOOL V2
+       SPAM TOOL V2
     ┗━━━━━━━━━━━━━━━━┛  
  \033[1;34m[6]\e[35m DDOS Attack  
  \033[1;34m[7]\e[35m How to use ?
@@ -35,13 +35,17 @@ echo -e '\033[31;38;1m
  \033[1;34m[9]\e[35m TIKTOK-BOT \e[31m Update
  \033[1;34m[10]\e[35m SPAM SMS V1 \e[31m Update 
 \033[1;36m    ┏━━━━━━━━━━━━━━━━┓
-        SPAM TOOL V3
+       SPAM TOOL V3
     ┗━━━━━━━━━━━━━━━━┛  
  \033[1;34m[11]\e[35m SPAM SMS V2 \033[1;32m Update New
  \033[1;34m[12]\e[35m CCV-CAMERA-V1 \033[1;32m Update New
  \033[1;34m[13]\e[35m IPDRONE \033[1;32m Update New
  \033[1;34m[14]\e[35m TIKTOK VIEW V1 \033[1;32m Update New 
  \033[1;34m[15]\e[35m FB CLONE TOOL \033[1;32m New 
+ \033[1;36m    ┏━━━━━━━━━━━━━━━━┓
+       SPAM TOOL V4
+    ┗━━━━━━━━━━━━━━━━┛
+\033[1;34m[16]\e[35m TIKTOK LIKE BOT V1 \033[1;32m Update New    
 '
 
 
@@ -90,7 +94,7 @@ bash camphish.sh
 
 ## Finduser
 elif [[ $islem == 4 || $islem == 04 ]]; then
-clear
+clear 
 echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
 sleep 3
 cd Tools4
@@ -143,7 +147,7 @@ bash tga.sh
 ## TIKTOK-BOT
 elif [[ $islem == 9|| $islem == 09 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 cd Tool9
 git clone https://github.com/mastertgtool/TIKTOK-BOT.git
@@ -154,7 +158,7 @@ python bot.py
 ## SPAM SMS V1
 elif [[ $islem == 10|| $islem == 10 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 git clone https://github.com/mastertgtool/SPAM-SMS-V1.git
 cd SPAM-SMS-V1
@@ -163,7 +167,7 @@ bash set.sh
 ## SPAM SMS V2
 elif [[ $islem == 11|| $islem == 11 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 git clone https://github.com/mastertgtool/SPAM-SMS-V2.git
 cd SPAM-SMS-V2
@@ -173,7 +177,7 @@ python SPAM-SMS-V2.py
 ## CCV-CAMERA-V1
 elif [[ $islem == 12|| $islem == 12 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 git clone https://github.com/mastertgtool/CCV-CAMERA-V1.git
 cd CCV-CAMERA-V1
@@ -183,7 +187,7 @@ python CCV-CAMERA-V1.py
 ## IPDRONE
 elif [[ $islem == 13|| $islem == 13 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 pkg install git
 git clone https://github.com/mastertgtool/IPDRONE.git
@@ -193,7 +197,7 @@ python ipdrone.py -v 101.7114774
 ## TIKTOK VIEW
 elif [[ $islem == 14|| $islem == 14 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 pkg install python
 pkg install git
@@ -204,15 +208,25 @@ python view.py
 ## FB CLONE V1
 elif [[ $islem == 15|| $islem == 15 ]]; then
 clear
-echo -e "\033[47;3;35m Installation May Take a Long Time Wait\033[0m"
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
 sleep 3
 apt update 
+apt upgrade
 apt install python
 pip install beautifulsoup4
-apt install git
+pkg install git
 git clone https://github.com/mastertgtool/FB-CLONE-TOOL.git
 cd FB-CLONE-TOOL
-python FB-CLONE.py
+python fbclone.py
+
+## TikTok Likes
+elif [[ $islem == 16|| $islem == 16 ]]; then
+clear
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
+sleep 3
+git clone https://github.com/mastertgtool/TikTokLike-.git
+cd TikTokLike-
+python TikTok.py
 
 ## Faulty code
 
