@@ -235,6 +235,6 @@ else
         echo -e '\033[36;40;1m You Entered Incorrect Code'	
 	sleep 1
 	clear 
-	bash tga.sh
+	bash tga1.sh
 fi
     
