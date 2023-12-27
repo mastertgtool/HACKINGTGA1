@@ -39,13 +39,14 @@ echo -e '\033[31;38;1m
     ┗━━━━━━━━━━━━━━━━┛  
  \033[1;34m[11]\e[35m SPAM SMS V2 \033[1;32m Update New
  \033[1;34m[12]\e[35m CCV-CAMERA-V1 \033[1;32m Update New
- \033[1;34m[13]\e[35m IPDRONE \033[1;32m Update New
+ \033[1;34m[13]\e[35m IPDRONE \e[31m Update 
  \033[1;34m[14]\e[35m TIKTOK VIEW V1 \033[1;32m Update New 
- \033[1;34m[15]\e[35m FB CLONE TOOL \033[1;32m New 
+ \033[1;34m[15]\e[35m FB CLONE TOOL \e[31m Update 
  \033[1;36m    ┏━━━━━━━━━━━━━━━━┓
        SPAM TOOL V4
     ┗━━━━━━━━━━━━━━━━┛
-\033[1;34m[16]\e[35m TIKTOK LIKE BOT V1 \033[1;32m Update New    
+\033[1;34m[16]\e[35m TIKTOK LIKE BOT V1 \033[1;32m Update New  
+\033[1;34m[17]\e[35m TIKTOK VIEW BOT V2 \033[1;32m New 
 '
 
 
@@ -228,6 +229,14 @@ git clone https://github.com/mastertgtool/TikTokLike-.git
 cd TikTokLike-
 python TikTok.py
 
+## TIKTOK VIEW V2
+elif [[ $islem == 17|| $islem == 17 ]]; then
+clear
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
+sleep 3
+git clone https://github.com/mastertgtool/TIKTOKVIEW.git
+cd TIKTOKVIEW
+python viewtik_enc.py
 ## Faulty code
 
 else   
